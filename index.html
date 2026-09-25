@@ -6,14 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
+    <script src="scripts/script.js" defer></script>
 </head>
 <main>
 <body>
     <header>
     <p>Home Page</p>
     <a href="pages/movies.html">Top 3 Movies</a>
+    <br>
     <a href="pages/news.html">Breaking News</a>
-</header>
+    <br>
+    <a href="pages/schedule.html">My Class Schedule</a>
+    <br>
+    <a href="pages/signup.html">Contact Us!</a>
     <hr />
 
 
@@ -55,9 +60,9 @@ Frosty’s Ice Cream Shack, however, has already added a new flavor to its menu:
     <li>Django Unchained</li>
     <img src="Images/django.jpg" alt="Django Unchained poster" width="150">
         <ul>
-            <li>2012</li>
-            <li>Quinten Tarantino</li>
-            <li>Jamie Fox</li>
+            <li>Published: 2012</li>
+            <li>Directed by: Quinten Tarantino</li>
+            <li>Lead actor: Jamie Fox</li>
             <p>Fun Facts!</p>
                 <ul></ul>
                     <li>Mandingo fighting wasn't a real practice during slavery</li>
@@ -69,39 +74,114 @@ Frosty’s Ice Cream Shack, however, has already added a new flavor to its menu:
     <li>Obsession</li>
     <img src="Images/Obsession_theatrical_poster.jpeg" alt="Obsession poster" width="150">
         <ul>
-            <li>2025</li>
-            <li>Curry Barker</li>
-            <li>Inde Navarette and Micheal Johnston</li>
+            <li>Published: 2025</li>
+            <li>Directed by: Curry Barker</li>
+            <li>Lead actors: Inde Navarette and Micheal Johnston</li>
             <p></p>
         </ul>
 
     <li>Fight Club</li>
     <img src="Images/fightclub.webp" alt="Fight club poster" width="150">
         <ul>
-            <li>1999</li>
-            <li>David Fincher</li>
-            <li>Edward Norton and Brad Pitt</li>
+            <li>Published: 1999</li>
+            <li>Directed by: David Fincher</li>
+            <li>Lead actors: Edward Norton and Brad Pitt</li>
         </ul>
         </ol>
     </li>
-
-
-
-
-
  </ol>
     <hr />
-</main>
+
 </section>
+
+<section>
+<table border="1" width="1000">
+    <!-- header row -->
+     <H1>My Class Schedule</H1>
+    <tr>
+        <th>Day:</th>
+        <th>Period:</th>
+        <th>Subject:</th>
+        <th>Room #:</th>
+        <th>Teacher:</th>
+    </tr>
+    <tr>
+        <td>White</td>
+        <td>2</td>
+        <td>Hon Statistics</td>
+        <td>230</td>
+        <td>Harkins</td>
+    </tr>
+    <tr>
+        <td>White</td>
+        <td>4</td>
+        <td>Hon Calculus</td>
+        <td>208</td>
+        <td>McCallum</td>
+    </tr>
+    <tr>
+        <td>Blue</td>
+        <td>2</td>
+        <td>Spanish 3</td>
+        <td>2016</td>
+        <td>Andrews</td>
+    </tr>
+    <tr>
+        <td>Blue</td>
+        <td>3</td>
+        <td>AP Literature</td>
+        <td>123</td>
+        <td>Atwood</td>
+    </tr>
+    <tr>
+        <td>Blue</td>
+        <td>4</td>
+        <td>Web Development</td>
+        <td>232</td>
+        <td>Girsch</td>
+    </tr>
+   
+ </table>
+
+</section>
+<section>
+<br>
+<hr>
+<!-- FORM -->
+<form>
+    <!-- simple text box -->
+     <div>
+        <label for="firstName">First Name:</label>
+<input type="text", id="firstName" name="firstName" placeholder="Jane">
+</div>
+<div>
+    <br>
+    <label for="lastName">Last Name</label>
+    <input type="text", id="lastName" name="lastName" placeholder="Doe">
+</div>
+
+ <!-- email box -->
+<div>
+    <br>
+  <label for="userEmail">Email Address:</label>
+  <input type="email" name="userEmail" id="userEmail" placeholder="Email@email.com" required>
+  </div>
+<br>
+  <button type="Submit">Send Message</button>
+</form>
+<section/>
+</main>
+<br>
+<hr>
     <!-- ANCHORS + URLs -->
 <!-- External links need target="_blank" -->
  <footer>
+    <hr>
     <a href="https://www.google.com" target="_blank">Google Search</a>
     <a href="https://www.canva.com" target="_blank">Canva Home</a>
     <a href="https://github.com/245641-NR?tab=repositories" target="_blank">My Repository</a>
     <a href="#top">Back to top</a>
     <hr />
-    <p>footer</p> 
  </footer>
 </body>
 </html>
@@ -112,3 +192,29 @@ Frosty’s Ice Cream Shack, however, has already added a new flavor to its menu:
 <!-- <main>in between header and footer is main</main> -->
 <!-- <section>sections always go inside the main</section> -->
 <!-- <footer>same thing with footers</footer> -->
+<!-- defer allows x to load AFTER the website is loaded -->
+<!-- access results under console in inspect -->
+<!-- tag *3 will times it by 3 -->
+
+<!-- HTML Tables -->
+ <!-- TD = table data -->
+ <table>
+    <!-- header row -->
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>School</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>22</td>
+        <td>SMCC</td>
+    </tr>
+    <tr>
+        <td>Sara</td>
+        <td>20</td>
+        <td>BU</td>
+    </tr>
+
+ </table>
+ <br>
