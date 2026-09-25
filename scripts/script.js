@@ -61,11 +61,70 @@ console.log(middleSchool)
 // alert("Welcome to my website")
 
 // const response = Input(message). -> creates a popup with message and an entry widget
-const userName = "Nat" // prompt("What is your name?")
+// const userName = "Nat" // prompt("What is your name?")
 const favoriteFood = "Lasagna" // prompt("What is your favorite food")
 
 console.log("---- User Profile ----")
-console.log("Name: ", userName)
+// console.log("Name: ", userName)
 console.log("Favorite food: ", favoriteFood)
 
 // alert("Thanks " + userName + " Enjoy your weekend!")
+// Arithmetic Operators
+// Basic Operators: +, -, * (Multiplication), / (division)
+// Modulus Operator: a%b --> remainder after dividing a by b
+// Exponents: a ** b --> a raised to the power of b
+// Increment (++) & decrement (--): quick +1 or -1 operations
+
+let lives = 3
+lives--
+// console.log(lives)
+
+// Concatenation and Template Literals
+// Concatenation: medthod for combining strings by adding them 
+
+const userName = "Sam"
+const userAge = "17"
+const favoriteSubject = "Math"
+
+
+//Method 1: Concatenation
+const message = "Hello, my name is " + userName + " and I am " + userAge + " years old. My favorite subject is " +favoriteSubject
+console.log(message)
+
+//Method 2: Template Literals
+// ` is button left of 1
+const messageTwo = `Hello, my name is ${userName}. I am ${userAge+2} years old. My favorite subject is ${favoriteSubject}`
+console.log(messageTwo)
+
+//Multi-Line String \n
+const bio = `
+=== USER PROFILE ===
+Name: ${userName}
+Age: ${userAge}
+Favorite Subject: ${favoriteSubject}
+`
+console.log(bio)
+
+console.log(Number(userAge) * .04)
+
+
+
+
+const amount = Number(prompt("Enter Bill Total:"))
+const tipPercent = Number(prompt("Enter Tip Percentage:"))
+const tipAmount = (tipPercent/100)*(amount)
+const totalCost = (tipAmount + amount)
+const messageUno = 
+`
+Original bill: ${amount}$
+Tip Total: ${tipAmount}$
+total: ${totalCost}$
+
+`
+
+console.log(messageUno)
+
+
+
+
+
