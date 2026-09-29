@@ -110,19 +110,19 @@ console.log(Number(userAge) * .04)
 
 
 
-const amount = Number(prompt("Enter Bill Total:"))
-const tipPercent = Number(prompt("Enter Tip Percentage:"))
-const tipAmount = (tipPercent/100)*(amount)
-const totalCost = (tipAmount + amount)
-const messageUno = 
-`
-Original bill: ${amount}$
-Tip Total: ${tipAmount}$
-total: ${totalCost}$
+// const amount = Number(prompt("Enter Bill Total:"))
+// const tipPercent = Number(prompt("Enter Tip Percentage:"))
+// const tipAmount = (tipPercent/100)*(amount)
+// const totalCost = (tipAmount + amount)
+// const messageUno = 
+// `
+// Original bill: ${amount}$
+// Tip Total: ${tipAmount}$
+// total: ${totalCost}$
 
-`
+// `
 
-console.log(messageUno)
+// console.log(messageUno)
 
 
 

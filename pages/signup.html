@@ -13,10 +13,13 @@
     <a href="news.html">Breaking News</a>
     <br>
     <a href="schedule.html">My Class Schedule</a>
+    <hr>
     </header>
     <h1>Contact Us!</h1>
 
 <!-- FORM -->
+ <main> 
+<form> 
 <form>
     <!-- simple text box -->
      <div>
@@ -36,20 +39,66 @@
   <input type="email" name="userEmail" id="userEmail" placeholder="Email@email.com" required>
   </div>
 <br>
-  <button type="Submit">Send Message</button>
+  <button type="Submit">Sign Me Up!</button>
 </form>
+<br>
+<form action="POST"></form>
+<hr>
+    <p>Select how you get to school:</p>
+    <input type="radio" id="Car" name="Transportation" value="Car">
+    <label for="Car">Car</label>
+<br>
+    <input type="radio" id="Bus" name="Transportation" value="Bus" checked>
+    <label for="Bus">Bus</label>
+<br>
+    <input type="radio" id="Walk" name="Transportation" value="Walk">
+    <label for="Walk">Walk</label>
+
+
+    <br>
+    <hr>
+    <p>Select Your Hobbies:</p>
+<input type="checkbox" name="hobbies" id="Gaming" value="Gaming" checked>
+<label for="Gaming">Gaming</label>
+<br>
+<input type="checkbox" name="hobbies" id="sports" value="sports">
+<label for="sports">Sports</label>
+<br>
+<input type="checkbox" name="hobbies" id="Music" value="Music">
+<label for="Music">Music</label>
+<br>
+<input type="checkbox" name="hobbies" id="coding" value="coding">
+<label for="coding">Coding</label>
+<br>
+<hr>
+
+<label for="message">Additional Comments:</label>
+<br>
+<textarea name="message" value="message" id="message" 
+rows="10" cols="30"></textarea>
+<br>
+<hr>
+<label for="grade" >Grade Level:</label>
+ <select name="grade" id="grade">
+    <option value="grade9">Freshman</option>   
+    <option value="grade10">Sophomore</option>
+    <option value="grade11">Junior</option>
+    <option value="grade12">Senior</option>
+    <select/>
+    <br>
+    <hr>
+    <button type="Submit">Submit Survey</button>
+
+
+</form>
+</main>
 
 
 
-
-
-
-
-
-
-
-
-
+<footer>
+    <hr>
+    <a href="../index.html">Back To Home</a> 
+</footer>
 
 </body>
 </html>
