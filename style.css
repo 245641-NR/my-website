@@ -1,0 +1,13 @@
+p {
+    background-color: aqua;
+    color:black
+}
+
+
+
+
+
+
+/* stylesheet is applied last
+    in head is next important
+    inline is applied first */
