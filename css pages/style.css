@@ -1,0 +1,21 @@
+.main-text {
+    background-color: aqua;
+    color:black
+}
+.header-logo {
+background-color: black;
+color: white;
+font-size: 32px;
+}
+a {
+    text-decoration:none;
+}
+
+
+p {
+    background-color: aquamarine;
+}
+
+/* stylesheet is applied last
+    in head is next important
+    inline is applied first */
