@@ -1,9 +1,25 @@
+
+header {
+    border: 2px solid black;
+}
+/* main stylings */
+main{
+    border: 2px solid black;
+   
+
+}
+
+/* When padding, first value is top+bottom, second value is left+right */
 .story-box {
     background-color: #41faf4;
+    padding: 20px 40px ;
+    margin: 0px 20px;
 }
 
 #hero-box {
     background-color:rgb(143, 255, 251);
+    padding: 20px 40px;
+    margin: 0px 20px;
 }
 
  section {
