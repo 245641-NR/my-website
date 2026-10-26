@@ -1,4 +1,27 @@
+ .weblogo {
+    width: 110px;
+    border-radius: 50px;
+}
 
+header {
+    background-color:#706c61;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+
+.nav-link {
+    background-color: #e5446d ;
+    border-radius: 50px;
+    color:#f8f4e3;
+    padding: 10px;
+    
+}
+.active-link {
+  background-color: #ff8966 ;
+    border-radius: 50px;
+    color:#f8f4e3;
+    padding: 10px;
+}
 .box-1 {
     background-color: red;
     border: black solid 2px;
