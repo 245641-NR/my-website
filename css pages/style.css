@@ -1,6 +1,6 @@
  /* General styling */
  a {
-    text-decoration-line: none;
+    text-decoration: none;
  }
  
  .weblogo {
@@ -13,6 +13,7 @@ header {
 border-top-left-radius: 50px;
 border-bottom-right-radius: 50px;
 padding-bottom: 40px;
+font-family: "Sansita", sans-serif;
 }
 
 .active-link {
