@@ -1,3 +1,21 @@
-body {
-background-color: #f4f794;
+.recipe-hero-section {
+
+    height: 30vh;
+    padding-left: 3em;
+    background-image: url("../Images/indianfood.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+
+
+.recipe-hero-card {
+    background-color: antiquewhite;
+    width: 60vw;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.recipe-hero-section-main {
+    background-color:wheat ;
 }

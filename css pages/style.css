@@ -7,6 +7,9 @@
     width: 110px;
     border-radius: 50px;
 }
+.wpg-name {
+    padding-left: 20px
+}
 
 header {
     background-color:#706c61;
@@ -30,10 +33,42 @@ font-family: "Sansita", sans-serif;
 .active-link {
   background-color: #ff8966 ;
 }
+
+/* Main stylings */
+
+.hero-text, .hero-form-btn {
+color: rgb(0, 0, 0);
+/* opacity: 1; */
+}
+
+
+.hero-section {
+    height: 60vh;
+    padding-left: 3em;
+    background-image: url("../Images/PHS.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+
+.hero-info {
+    width: 40%;
+    color: rgb(225, 216, 216);
+    background-color: rgba(223, 7, 7);
+    padding: 10px;
+    /* opacity:0.5 ; */
+     border-radius: 40px;
+}
+
+.hero-info h2 {
+    color: #d3cacd;
+}
+
 .box-1 {
     background-color: red;
     border: black solid 2px;
     padding: 40px;
+    font-family: "Sansita", sans-serif;
 }
 
 /* 42 pixels */
@@ -41,6 +76,7 @@ font-family: "Sansita", sans-serif;
     background-color: yellow;
     border: black solid 2px;
     margin: 40px;
+    font-family: "Sansita", sans-serif;
 }
 
 /* 140 pixels */
@@ -49,8 +85,14 @@ font-family: "Sansita", sans-serif;
     border: black solid 2px;
     padding: 10px;
     margin-top: 100px;
+    font-family: "Sansita", sans-serif;
 }
 
+
+.phs-img{
+    width:40vw; 
+    min-width: 100px;
+}
 /* Box one's color expanded because the padding attribute changes everything
 INSIDE the box and the margin attrivute changes the width of whats OUTSIDE the box */
 

@@ -1,0 +1,47 @@
+
+AVOID SERIF TEXT 
+ if you have a lot of text
+
+USE SANS SERIF instead
+click get font 
+
+   embed code in <head> 
+    
+    or 
+
+    CSS classes
+
+
+<!-- NO LONGER USING PIXELS (only for borders) -->
+<!--use em: for padding and margins 
+1 em = set value of pixels
+1 em on a h2 = 24px
+1/2 em on an h2 = 12px-->
+<!-- use rem (root em): default is 16px -->
+
+
+<!-- line-hieght: also relative to initial value
+ 1.5 would be 1.5x initial value-->
+
+<!-- 1 font for links + headers -->
+<!-- 1 font for main text -->
+
+<!-- putting link into head makes it available
+ THEN grab font-family text and put it into style css -->
+
+ find image
+ save image as 
+ put into images file
+
+
+
+ div.img-box - creates class name "img-box" without writing class
+
+ % -> change relative to the size of the parent
+ vw -> change relative to the width of the screen
+
+  <img src="Images/PHS.jpg" alt="Portland High School" class="phs-img">
+
+  back = cmd-z
+
+  display:block to make the link go underneath the img
