@@ -3,6 +3,7 @@
     height: 30vh;
     padding-left: 3em;
     background-image: url("../Images/indianfood.webp");
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
    
@@ -14,8 +15,32 @@
     width: 60vw;
     border-radius: 50px;
     padding: 10px;
+
 }
 
+
 .recipe-hero-section-main {
-    background-color:wheat ;
+    background-color: wheat ;
+}
+
+.recipe-card-samosa, .recipe-card-bc, .recipe-card-kheer {
+   width: 15vw;
+    border: 2px solid rgb(255, 165, 0);
+    box-shadow: 3px 7px 3px rgb(255, 165, 0) ;
+    padding: 1em;
+    margin: 1em;
+}
+ img {
+    border-radius: 20%;
+    width: 10vw;
+    display: block;
+    margin-bottom: 1em;
+ }
+
+
+a {
+    background-color: orangered;
+    border-radius: 50px;
+    color:#f8f4e3;
+    padding: 10px;
 }
