@@ -24,12 +24,23 @@ font-family: "Sansita", sans-serif;
 }
 
 .nav-link {
+    display: inline-block;
     background-color: #e5446d ;
     border-radius: 50px;
     color:#f8f4e3;
     padding: 10px;
-    
+    transition: background-color 0.75s;
+    transition: transform 0.75s;
+    transition-timing-function: ease;
 }
+/* ^ can do the transition individually or you can put "all" in instead */
+.nav-link:hover {
+    transform:scale(1.25);
+    background-color:#e692a7 ;
+    color: #e5446d;
+}
+
+
 .active-link {
   background-color: #ff8966 ;
 }
@@ -100,3 +111,34 @@ INSIDE the box and the margin attrivute changes the width of whats OUTSIDE the b
 /* stylesheet is applied last
     in head is next important
     inline is applied first */
+
+main {
+    border: 2px solid blue;
+    position: relative;
+}
+
+/* put position relative in PARENT container */
+.fa-angles-up {
+    font-size: 1.5rem;
+    padding: 0.5em;
+    color: blue;
+    background-color: beige;
+    border: 2px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    left: 80%;
+    top: 30px;
+    transition: all 1s ease;
+}
+
+.fa-angles-up:hover {
+    transform:rotate(360deg);
+}
+
+
+/* absolute = itll stay there
+    fixed = itll move with you as you scroll */
+
+/* using pixels instead of % will make the element locked onto the stop 
+- instead of being relative to the page size */

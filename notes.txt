@@ -45,3 +45,6 @@ click get font
   back = cmd-z
 
   display:block to make the link go underneath the img
+
+  display: inline-block
+  element that has an ID will be recalled with # before the ID name
