@@ -32,7 +32,7 @@ main {
 }
 
 .recipe-card-samosa, .recipe-card-bc, .recipe-card-kheer {
-    width: 17vw ;
+    width: 18vw ;
     min-width: 150px;
     border: 2px solid rgb(255, 165, 0);
     box-shadow: 3px 7px 3px rgb(255, 165, 0) ;

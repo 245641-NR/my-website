@@ -12,6 +12,7 @@
 }
 
 header {
+    
     background-color:#e4bbc5;
 border-top-left-radius: 50px;
 border-bottom-right-radius: 50px;
@@ -142,6 +143,37 @@ main {
 }
 
 
+.home-section{
+    height: 90vh;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* align-items to move things on y axis (or opposite of set main)
+justify-content to move things on x axis or set main */
+
+.home-section div {
+    width:200px;
+    height:200px;
+    border: 2px solid black;
+}
+/* call class name for section, element name for container
+ex .home-section div */
+
+.boxy-1 {
+    order: 3;
+}
+/* 
+.boxy-2 {
+
+} */
+
+/* .boxy-3 { 
+
+} */
 /* absolute = itll stay there
     fixed = itll move with you as you scroll */
 
