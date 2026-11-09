@@ -1,5 +1,11 @@
-.recipe-hero-section {
 
+main {
+    background-color: wheat ;
+}
+
+
+
+.recipe-hero-section {
     height: 30vh;
     padding-left: 3em;
     background-image: url("../Images/indianfood.webp");
@@ -17,6 +23,9 @@
 
 }
 
+.all-cards {
+    list-style-type: none;
+}
 
 .recipe-hero-section-main {
     background-color: wheat ;
@@ -29,7 +38,7 @@
     box-shadow: 3px 7px 3px rgb(255, 165, 0) ;
     background-color:  rgb(218, 190, 138);
     padding: 2em;
-    margin: 1em;
+    margin: 2em;
     position: relative;
     border-radius: 25%;
     
