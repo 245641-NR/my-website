@@ -91,7 +91,25 @@ align-items: center;
   background-color: #ff8966 ;
 }
 
+
+
+
+
+
+
 /* Main stylings */
+
+.html-links {
+    display:flex;
+    flex-direction:column;
+    /* display: block; */
+}
+
+
+
+
+
+
 
 .hero-text, .hero-form-btn {
 color: rgb(0, 0, 0);

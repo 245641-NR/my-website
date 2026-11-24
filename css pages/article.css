@@ -1,0 +1,10 @@
+.article-space {
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    /* display: */
+    width: 150px;
+}

@@ -52,7 +52,7 @@ main {
  }
 
 
-a {
+main a {
     min-width: 17vw;
     background-color: orangered;
     border-radius: 50px;
